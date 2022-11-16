@@ -1,0 +1,304 @@
+/* 
+fonts :
+font-family: 'Cairo', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+/* this is the calc for regular width  */
+/* 
+margin==> 15px
+4 gaps ===> 60px
+3 elements ===>
+full width ==> 100%
+100% - 60
+
+*/
+html {
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    margin-left: 25px;
+    width: fit-content;
+
+    background: #eee;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.header-nav li {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 30px;
+    position: relative;
+    left: 375px;
+    bottom: 85px;
+}
+
+.header h1 {
+    color: #cc3a00;
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+
+}
+
+.header-nav li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #c44a19;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+}
+
+.header-nav li .Contact {
+    border-radius: 50px;
+background: #eee;
+font-weight: 600;
+padding: 0px 20px;
+color: #c44a19;
+margin-left: 0px;
+transition: 1s;
+
+}
+
+.header-nav li .Contact:hover {
+    background: #FF6101;
+    color: #eee;
+margin: 5px;
+}
+
+
+.section img {
+    width: fit-content;
+    height: 625px;
+    position: relative;
+    left: 385px; 
+    bottom: 150px;
+z-index: -1;
+
+}
+
+h2 {
+    position: absolute;
+    bottom: 275px;
+    left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 100px;
+    font-style: italic;
+    word-spacing: 10px;
+color: #FF6101;
+}
+
+
+h2 span {
+    color: #F21616;
+}
+
+.section p {
+    position: absolute;
+    bottom: 225px;
+    left: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-style: italic;
+    word-spacing: 10px;
+    color: #F21616;
+    font-weight: 700;
+}
+
+.section p a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: #FF6101;
+    padding: 0px 15px;
+}
+
+.menu-container {
+    width: 1179px ;
+    height: fit-content;
+}
+.menu-container  .menu-title {
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    font-family: 'Poppins', sans-serif;
+font-size: 25px;
+
+}
+
+.menu-container  .first-line-card-1 {
+width: 200px;
+max-height: fit-content;
+background-color: red;
+display: inline-block;
+margin-left: 32px;
+position: relative;
+left: 5%;
+border-radius: 15px;
+overflow: hidden;
+margin-bottom: 25px;
+
+}
+
+.menu-container  .first-line-card-1 img {
+    width: 159px;
+    height: 159px;
+    margin: 5px;
+    position: relative;
+    left: 15px;
+    top: 6px;
+    transition: 0.5s;
+}
+
+
+.menu-container  .first-line-card-1 img:hover {
+
+top: 15px;
+
+}
+
+.menu-container  .first-line-card-1 .card-1-title {
+    position: relative;
+    left: 70px;
+    top: 3px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu-container .first-line-card-1 .card-1-description {
+position: relative;
+left: 10px;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+
+}
+
+.about-title {
+    position: absolute;
+    left: 50%;
+top: 1425px;
+    font-family: 'Poppins', sans-serif;
+font-size: 25px;
+display: block;
+margin-top: 35px;
+
+}
+
+.about-container {
+    width: 1300px;
+    height: 250px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    border-radius: 25px 100px 100px 25px;
+    margin-bottom: 50px;
+}
+
+
+.chiefs {
+    width: 1000px;
+    height: 200px;
+    background-color: #eee;
+    position: absolute;
+    top: 20px;
+    left: 275px;
+    transition: none;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.about-container .ch-ps-1 {
+width: 200px;
+height: 200px;
+position: absolute;
+top: 20px;
+left: 25px;
+border-radius: 150px;
+transition: 0.5s;
+
+}
+
+.about-container .ch-ps-1:hover {
+width: 225px;
+height: 225px;
+}
+
+.about-container .chiefs h4 {
+    font-family: open sans;
+font-size: 30px;
+    position: absolute;
+    top: -25px;
+left: 375px;
+
+
+}
+
+.about-container .chiefs p {
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    font-size: 25px;
+    font-family: open sans;
+    font-weight: 400px;
+
+}
+
+.footer {
+    margin-top: 100px;
+    height: 100px;
+    width: 1349px;
+    background: rgb(201, 0, 0);
+    position: absolute;
+    left: 0px;
+    font-family: open sans;
+}
+
+.footer p {
+    position: relative;
+    top: 10px;
+    left: 75px;
+    font-weight: 600;
+    font-size: 20px;
+    max-width: fit-content;
+    display: inline-block;
+
+}
+
+.footer a img {
+    width: 50px;
+    height: 50px;
+    margin-left: 75px;
+position: relative;
+left: 200px;
+top: 25px;
+transition: 0.8s;
+}
+
+.footer a img:hover {
+    width:60px;
+    height: 60px;
+
+}
+
+/* 
+margin==> 25px
+6 gaps ===> 125px
+5 elements ===>
+full width ==> 100%
+100% - 60
+
+*/
+
